@@ -4,9 +4,9 @@
 }
 
 :root {
-    --color1: rgb(94, 212, 94);
-    --color2: rgb(175, 255, 175);
-    --color3: rgb(114, 114, 114);
+    --color1: rgb(94, 123, 255);
+    --color2: rgb(199, 210, 255);
+    --color3: rgb(66, 66, 66);
 }
 
 body {
@@ -56,8 +56,12 @@ body {
 #todos div button {
     width: 100px;
     height: 50px;
-    margin-right: 10px;
     cursor: pointer;
+}
+
+#todos div p {
+    cursor: pointer;
+    padding: 10px;
 }
 
 .box {
@@ -68,4 +72,8 @@ body {
     border: none;
     outline: none;
     box-shadow: 0 0 3px var(--color3);
+}
+
+.line-through {
+    text-decoration: line-through;
 }
